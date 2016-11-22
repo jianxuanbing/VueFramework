@@ -3,6 +3,7 @@ import App from "./App";
 import Data from "./components/data";
 import School from "./components/school";
 import Hello from "./components/hello";
+import jQueryImg from "./components/jquery";
 
 
 // 定义路由配置
@@ -33,6 +34,10 @@ module.exports={
                 {
                     path:"data",
                     component:Data
+                },
+                {
+                    path:"jquery",
+                    component:jQueryImg
                 }
             ]
         }

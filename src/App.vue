@@ -1,3 +1,4 @@
+
 <template>
     <div id="#app">
         <!-- 导航栏 -->
@@ -18,4 +19,5 @@ export default{
 </script>
 <style>
 @import "../static/css/base.css";
+
 </style>

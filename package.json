@@ -7,7 +7,7 @@
     "build": "node build/build.js",
     "test": "",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "start":"npm run dev"
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
@@ -67,6 +67,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "cropper": "^2.3.4",
     "echarts": "^3.3.1",
     "jquery": "^3.1.1",
     "vue": "^2.0.8"

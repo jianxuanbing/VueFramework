@@ -21,7 +21,8 @@ module.exports={
             "assets":path.resolve(__dirname,"../src/assets"),
             "components":path.resolve(__dirname,"../src/components"),
             "vue":"vue/dist/vue.js",
-            "jquery":path.resolve(__dirname,"../node_modules"),
+            "jquery":path.resolve(__dirname,"../node_modules/jquery/src/jquery"),
+            "directives":path.resolve(__dirname,"../src/directives"),
         }
     },
     resolveLoader:{

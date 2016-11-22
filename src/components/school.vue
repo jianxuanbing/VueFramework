@@ -7,9 +7,9 @@
             <li>
             <p>全校整体情况</p>
             <div class="task_left_nav_box">
-                <span class="task_left_nav_box_li" id="hxsj"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/hello'">核心数据查询</router-link></span>
-                <span class="task_left_nav_box_li" id="xxjx"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/data'">学校教学情况概览表</router-link></span>
-                <span class="task_left_nav_box_li" id="xjjx"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/data'">校级教学管理人员结构</router-link></span>
+                <span class="task_left_nav_box_li" id="hxsj"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/hello'">hello</router-link></span>
+                <span class="task_left_nav_box_li" id="xxjx"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/data'">data</router-link></span>
+                <span class="task_left_nav_box_li" id="xjjx"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/jquery'">jQuery</router-link></span>
             </div>
             </li>
         </ul>
@@ -35,19 +35,19 @@ li{list-style: none;}
 table {border-collapse:collapse}
 
 .task_box{min-width: 1024px; height:100%;background-color: #fff;}
-.task_left{width: 235px; float: left;background-color: #263240;height:100%; overflow-y: hidden;overflow-x: hidden;}
+.task_left{width: 14.5%; float: left;background-color: #263240; overflow-y: hidden;overflow-x: hidden;display: inline;}
 
 .task_left_nav{ position: relative;}
 .task_left_nav li{font-size: 13px!important;  background-color: #263240; cursor: pointer; float: left;width: 100%; list-style:none;  font-size:14px}
 .task_left_nav li p{margin-left:10px; color: #fff;padding: 12px 0px;}
 
 
-.task_right{height: 100%;overflow-y: auto;width: 100%;}
+.task_right{overflow-y: auto;width: 84%;display: inline;float: left;}
 .task_right_iframe iframe{float: left;width:99.7%; overflow-y: hidden;border: 0px; margin: 0px; padding: 0px;}
 .shou{width:2%;float: left;height: 100%;background-color: #fff;}
-.task_right_iframe{width:auto;}
+.task_right_iframe{width:auto;margin-left: 0.3%;}
 
-.project_bottom{ width:0.3%;float: left;height: 100%;background-color: #2dc3e8;position: absolute; }
+.project_bottom{ width:0.3%;float: left;height: 100%;background-color: #2dc3e8;position: absolute; display: inline;}
 
 .project_bottom_lo{z-index:2;position: absolute; font-weight: bold; cursor: pointer; width:18px;top: 50%;left:-15px; height:38px;background-color: #2dc3e8;color: #fff; text-align: center; line-height: 40px; font-size: 18px;border-radius:3px 0px 0px 3px;}
 
