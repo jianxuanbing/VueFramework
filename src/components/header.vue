@@ -5,7 +5,7 @@
             <!--logo  开始-->
             <div class="header_logo">
                 <div class="header_logo_img">
-                    <img id="header_logo_img" src="../assets/school.png" />
+                    <img id="header_logo_img" src="../assets/images/school.png" />
                 </div>
                 <div class="header_logo_name_box">
                     <div class="header_logo_names_box">
