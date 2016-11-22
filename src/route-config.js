@@ -1,4 +1,10 @@
-import HelloCompoent from "./components/Hello";
+// 定义路由组件
+import App from "./App";
+import Data from "./components/data";
+import School from "./components/school";
+
+
+// 定义路由配置
 module.exports={
     // 配置路由模式:
     // 1、hash:浏览器环境，使用 URL hash 值来作路由。支持所有浏览器，包括不支持 HTML5 History Api 的浏览器
@@ -8,8 +14,20 @@ module.exports={
     //路由配置
     routes:[
         {
-            path:"/",//路径
-            component:HelloCompoent,//组件
+            path:"/",
+            redirect:"/index"
+        },
+        {            
+            path:"/index",
+            component:App
+        },
+        {
+            path:"/data",
+            component:Data
+        },
+        {
+            path:"/school",
+            component:School
         }
     ]
 }

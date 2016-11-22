@@ -4,6 +4,9 @@ import VueResource from "vue-resource";
 import VueValidator from "vue-validator";
 import RouterConfig from "./route-config";
 
+// 引入组件
+import App from "./App";
+
 // 路由
 Vue.use(VueRouter);
 // get json 数据
@@ -18,6 +21,9 @@ var router=new VueRouter(RouterConfig);
 // 路由器需要一个根组件。
 // 出于演示的目的，这里使用一个空的组件，直接使用 HTML 作为应用的模板
 var app=new Vue({
+    el:"#app",
+    template:"<App/>",
+    components:{App},
     router
 }).$mount("#app");
 
