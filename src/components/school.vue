@@ -56,9 +56,8 @@
     </div>
     
     <div class="task_right">
-        <div class="project_bottom">
-        <!--<img src="img/task/suo1.png" title="收起展开" onclick="buttom()" />-->
-        <div id="project_bottom_lo" class="project_bottom_lo" title="收起展开" ><img src="img/left_right.png" id="project_bottom_lo_img" /></div>
+        <div class="project_bottom">        
+        <div id="project_bottom_lo" class="project_bottom_lo" title="收起展开" ><img src="../assets/images/left_right.png" id="project_bottom_lo_img" /></div>
         </div>
         <div class="task_right_iframe">
             <router-view></router-view>
@@ -110,6 +109,6 @@ table {border-collapse:collapse}
 .task_left_nav_box span{border-left:3px solid #1e2630;background-color: #1e2630; border-top: 1px solid #1E2631; display: inline-block;float: left;width: 90%;height: 35px;line-height: 35px;color: #fff;padding: 0px 5%;}
 
 
-.task_left_nav_box_li_ioce{float: left;width: 20px;height: 100%;background-image: url(../assets/out.png);background-repeat: no-repeat;background-size: auto 100%;}
+.task_left_nav_box_li_ioce{float: left;width: 20px;height: 100%;background-image: url(../assets/images/out.png);background-repeat: no-repeat;background-size: auto 100%;}
 
 </style>
