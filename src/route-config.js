@@ -2,6 +2,7 @@
 import App from "./App";
 import Data from "./components/data";
 import School from "./components/school";
+import Hello from "./components/hello";
 
 
 // 定义路由配置
@@ -13,10 +14,6 @@ module.exports={
     mode:"history",
     //路由配置
     routes:[
-        {
-            path:"/",
-            redirect:"/index"
-        },
         {            
             path:"/index",
             component:App
@@ -27,7 +24,17 @@ module.exports={
         },
         {
             path:"/school",
-            component:School
+            component:School,
+            children:[
+                {
+                    path:"hello",
+                    component:Hello
+                },
+                {
+                    path:"data",
+                    component:Data
+                }
+            ]
         }
     ]
 }
