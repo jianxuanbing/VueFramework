@@ -3,52 +3,13 @@
     <div class="task_left" id="task_left">
         <div class="task_left_nav">					
         <ul>
-            <li id="index"><p><router-link>首页</router-link></p></li>
-            <li>
-            <p>填报资料批量导出</p>
-            <div class="task_left_nav_box">
-                <span class="task_left_nav_box_li">
-                    <div class="task_left_nav_box_li_ioce"></div>
-                    <router-link v-bind:to="'/data'">批量导出</router-link>
-                </span>
-            </div>
-            </li>
+            <li id="index"><router-link :to="'/school'" tag="p">首页</router-link></li>
             <li>
             <p>全校整体情况</p>
             <div class="task_left_nav_box">
-                <span class="task_left_nav_box_li" id="hxsj"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/school/hello'">核心数据查询</router-link></span>
-                <span class="task_left_nav_box_li" id="xxjx"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/school/data'">学校教学情况概览表</router-link></span>
-                <span class="task_left_nav_box_li" id="xjjx"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">校级教学管理人员结构</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">职称结构</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">学位结构</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">学缘结构</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">年龄结构</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">教师背景</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">全校课程开设情况</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">全校上课班级规模情况</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">教学资源及使用情况</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">就业去向表</router-link></span>
-            </div>
-            </li>
-            <li>
-            <p>各教学单位情况</p>
-            <div class="task_left_nav_box">
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">教师及本科生</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">专业带头人</router-link></span>
-            </div>
-            </li>
-            <li>
-            <p>专业情况</p>
-            <div class="task_left_nav_box">
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">授课教师</router-link></span>
-                <span class="task_left_nav_box_li"><div class="task_left_nav_box_li_ioce"></div><router-link v-bind:to="'/data'">专业带头人</router-link></span>
-            </div>
-            </li>
-            <li>
-            <p>教学质量报告</p>
-            <div class="task_left_nav_box">
-                <span class="task_left_nav_box_li"><router-link v-bind:to="'/data'">大学本科质量报告20160108</router-link></span>
-                <span class="task_left_nav_box_li"><router-link v-bind:to="'/data'">大学本科质量报告20160503</router-link></span>
+                <span class="task_left_nav_box_li" id="hxsj"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/hello'">核心数据查询</router-link></span>
+                <span class="task_left_nav_box_li" id="xxjx"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/data'">学校教学情况概览表</router-link></span>
+                <span class="task_left_nav_box_li" id="xjjx"><div class="task_left_nav_box_li_ioce"></div><router-link :to="'/school/data'">校级教学管理人员结构</router-link></span>
             </div>
             </li>
         </ul>
@@ -66,7 +27,6 @@
 </div>
 </template>
 <script>
-
 </script>
 
 <style>
